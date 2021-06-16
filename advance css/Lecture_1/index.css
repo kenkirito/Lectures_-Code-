@@ -1,0 +1,26 @@
+:root {
+    --color: white;
+    --bg--color: rgb(246, 4, 4);
+}
+
+div {
+    background: var(--bg--color);
+}
+
+h1 {
+    color: var(--color);
+}
+
+h2 {
+    --color: rgb(92, 92, 92);
+    color: var(--color);
+}
+
+::selection {
+    background: rgb(0, 89, 255);
+    color: seashell;
+}
+
+.header::selection {
+    background: var(--color);
+}
